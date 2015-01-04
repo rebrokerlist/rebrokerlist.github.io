@@ -29,7 +29,7 @@ $(document).ready(function() {
 $(document).ready(function() {
 	"use strict";
 	$("#countdown").countdown({
-		date: "7 January 2015 12:00:00",
+		date: "11 January 2015 12:00:00",
 		format: "on"
 	},
 	function() {
@@ -42,7 +42,7 @@ $(document).ready(function() {
 $(window).load(function() {
 	"use strict";
 	$("#commentslider").owlCarousel({
-		autoPlay: false, /** for autoplay - change false to 4000 to auto change every 4 seconds (for example) **/
+		autoPlay: 3000, /** for autoplay - change false to 4000 to auto change every 4 seconds (for example) **/
 		autoHeight: true,
 		stopOnHover: true,
 		navigation: false,
